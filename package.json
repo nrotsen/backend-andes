@@ -1,11 +1,11 @@
 {
-  "name": "andes-vercel-be",
+  "name": "backend-andes",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
-    "start": "ts-node index.ts",
-    "dev": "ts-node-dev --respawn --transpile-only index.ts",
-    "build": "tsc"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
@@ -39,4 +39,3 @@
     "typescript": "^5.5.3"
   }
 }
-
